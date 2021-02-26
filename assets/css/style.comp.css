@@ -1,0 +1,17 @@
+.example-grid {
+  display: grid;
+  grid-template-columns: repeat(autofit, 1fr); }
+  .example-grid__block {
+    grid-column: 1fr; }
+    .example-grid__block--1 {
+      background-color: #28b485; }
+    .example-grid__block--2 {
+      background-color: #7ed56f; }
+    .example-grid__block--3 {
+      background-color: #55c57a; }
+    .example-grid__block--4 {
+      background-color: #ffb900; }
+    .example-grid__block--5 {
+      background-color: #ff955c; }
+    .example-grid__block--6 {
+      background-color: #ff7730; }
